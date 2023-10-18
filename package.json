@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "mocha --require mocha-suppress-logs --exit --timeout 25000",
     "test:coverage": "nyc mocha --exit",
     "test-with-comments": "mocha --exit --timeout 25000",
