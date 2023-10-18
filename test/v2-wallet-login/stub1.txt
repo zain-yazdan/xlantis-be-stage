@@ -1,0 +1,1 @@
+This file is created for the sole purpose of passing as a thumbnail to collection creation route and must not be deleted.

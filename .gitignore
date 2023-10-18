@@ -1,0 +1,6 @@
+.env
+/node_modules
+public
+data
+.nyc_output
+.vscode

@@ -1,0 +1,59 @@
+NODE_MODE: The mode in which you want to run use this node application.
+PORT: The port on which you want to run use this node application.
+
+DATABASE_URL: Local Database URL - MongoDB.
+DATABASE_URL_ONLINE: Online Database URL - MongoDB.
+DATABASE_URL_ONLINEDEMO: Online Demo Database URL - MongoDB.
+DATABASE_TESTING_URL= Testing Database URl
+
+S3_BUCKET_NAME: AWS S3 Bucket name created.
+S3_ACCESS_ID: AWS S3 Access ID
+S3_ACCESS_SECRET: AWS S3 Secret Access Key
+MAX_NO_OF_IMAGES: limit for collection thumbnails
+
+JWT_EXPIRY_TIME: JWT expiry time
+JWT_KEY: JWT token key for verification
+
+SUPER_ADMIN_WALLET_ADDRESS: super-admin's wallet address
+SUPER_ADMIN_PRIVATE_KEY: super-admin's private key
+
+ERC721_FACTORY_ADDRESS: ERC-721 clone factory address
+ERC721_AUCTION_DROP_FACTORY_ADDRESS: ERC-721 Auction factory address
+ERC721_FIXED_PRICE_DROP_FACTORY_ADDRESS: ERC-1155 Fixed-price factory address
+ERC1155_FACTORY_ADDRESS: ERC-1155 clone factory address
+ERC1155_AUCTION_DROP_FACTORY_ADDRESS: ERC-721 Auction factory address
+ERC1155_FIXED_PRICE_DROP_FACTORY_ADDRESS: ERC-1155 Fixed-price factory address
+MULTICALL_ADDRESS: Multicall contract address
+ERC_20: Payment WETH token address
+PLATFORM_FEE_MANAGER_CONTRACT: Platform fee manager contract address
+
+NETWORK: Blockchain network which is currently used for system contract deployments and relayer creations
+WEB_SOCKET: Infura websocket for blockchain communication 
+IMAGE_NFT_FORMATS_SUPPORTED: An array of all image nft formats the system supports
+NFT_FORMATS_SUPPORTED: An array of all nft formats the system supports
+
+CRON_JOB_EXPRESSION: Expression for cron job
+
+CRYPTR_SECRET_KEY: Cryptr symmetric key
+
+GOOGLE_CLIENT_ID: Client id for app created on 0auth admin panel
+
+STRIPE_API_KEY= Stripe api key created on stripe dashboard
+STRIPE_SUCCESS_URL= Url of the screen that will be shown to user after successful payment 
+STRIPE_CANCEL_URL= Url of the screen that will be shown to user after cancel of payment
+
+STRIPE_SUCCESS_URL_ADMIN= Url of the screen that will be shown to user after successful payment 
+STRIPE_CANCEL_URL_ADMIN= Url of the screen that will be shown to user after cancel of payment
+
+PINATA_API_KEY= Pinata api key created on pinata dashboard
+PINATA_API_SECRET= Pinata api secret created on pinata dashboard
+PINATA_API_JWT= Pinata api JWT created on pinata dashboard
+PINATA_API_URL= Pinata post endpoint url on which we will send the call
+
+DEFAULT_PLATFORM_FEE_PERCENTAGE: Default platform fee
+CRYPTO_PRICE_API_URL= Api url from which we are fetching the current price of matic
+XMANNA_SSO_API_URL= Polygon API URL
+IPFS_URL= Base url of the IPFS api
+POLYGON_API_URL=  Base url of the Polygon api
+SUPER_ADMIN_EMAIL: Super admin email
+SUPER_ADMIN_PASSWORD: Super admin password
